@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MaterialGrammar</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background-color: #ffffff;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    header {
+      text-align: center;
+      padding: 2rem;
+      background-color: #f9f9f9;
+      border-bottom: 1px solid #ddd;
+    }
+    header img {
+      width: 180px;
+      margin-bottom: 0.25rem;
+    }
+    h1 {
+      margin: 0.2rem 0 0.5rem;
+      font-size: 2.5rem;
+    }
+    p.subtitle {
+      font-size: 1.2rem;
+      color: #555;
+    }
+    .links {
+      text-align: center;
+      margin: 1.5rem 0;
+    }
+    .links a {
+      margin: 0 0.5rem;
+      text-decoration: none;
+      color: #007acc;
+      font-weight: bold;
+    }
+    .badges {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.5rem;
+      padding-top: 1rem;
+    }
+    .badge {
+      display: inline-block;
+      padding: 0.25em 0.7em;
+      font-size: 0.75rem;
+      font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+      font-weight: 600;
+      border-radius: 2em;
+      color: #fff;
+      line-height: 1.5;
+      text-align: center;
+      white-space: nowrap;
+    }
+    .badge.gray    { background-color: #6c757d; }
+    .badge.blue    { background-color: #007bff; }
+    .badge.green   { background-color: #28a745; }
+    .badge.yellow  { background-color: #ffc107; color: #212529; }
+    .badge.orange  { background-color: #fd7e14; }
+    .badge.red     { background-color: #dc3545; }
+    .badge.purple  { background-color: #6f42c1; }
+    section {
+      max-width: 800px;
+      margin: auto;
+      padding: 2rem;
+    }
+    pre {
+      background: #f0f0f0;
+      padding: 1rem;
+      border-radius: 8px;
+      overflow-x: auto;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      padding: 1rem;
+      color: #777;
+      border-top: 1px solid #ddd;
+      margin-top: 2rem;
+    }
+    .medium-posts h3 {
+      margin-bottom: 0.3rem;
+    }
+    .medium-posts p {
+      font-size: 0.9rem;
+      color: #666;
+    }
+    .medium-posts a {
+      color: #007acc;
+      text-decoration: none;
+    }
+    .accordion details {
+      background: #f9f9f9;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+      padding: 1rem;
+    }
+    .accordion summary {
+      font-weight: bold;
+      font-size: 1rem;
+      cursor: pointer;
+      outline: none;
+    }
+    .accordion summary:hover {
+      color: #007acc;
+    }
+    .accordion p, .accordion ul {
+      margin: 0.5rem 0 0 0;
+      padding-left: 1rem;
+    }
+    #contact a {
+      color: #007acc;
+      text-decoration: none;
+    }
+    #contact a:hover {
+      text-decoration: underline;
+    }
+    .social-links {
+      display: flex;
+      gap: 1rem;
+      margin-top: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="images/materialgrammar-logo.png" alt="MaterialGrammar Logo" />
+  <h1>MaterialGrammar</h1>
+  <p class="subtitle">Uncovering the hidden structures of matter through pattern discovery</p>
+  <div class="links">
+    <a href="publications.html">Publications</a> |
+    <a href="#">Updates</a> |
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="badges">
+    <span class="badge gray">Founded 2025</span>
+    <span class="badge blue">Physics + Design</span>
+    <span class="badge green">Education & Research</span>
+    <span class="badge yellow">MIT License</span>
+  </div>
+</header>
+
+<section>
+  <h2>🔬 Mission</h2>
+  <p>MaterialGrammar is built on the idea that materials follow a discoverable grammar — a system of patterns underlying their behavior, form, and function. While equations describe known interactions, machine learning enables us to surface complex structures that may remain invisible to classical analysis.</p>
+  <p>Our goal is to translate these discoveries into visual, interactive, and intuitive representations that can serve scientists, engineers, and educators alike.</p>
+
+  <h2>⚡ Get Started</h2>
+  <p>We’re building a toolkit for visualizing and understanding materials. Stay tuned for interactive demos and resources.</p>
+  <pre><code># Coming soon: Install the MaterialGrammar toolkit
+pip install materialgrammar</code></pre>
+
+  <h2>🧠 Learn More</h2>
+  <div class="accordion">
+    <details>
+      <summary>🧱 Why structure matters in material science</summary>
+      <p>The physical properties of materials—such as strength, conductivity, elasticity, and optical behavior—are not just determined by what a material is made of, but <strong>how it's put together</strong>. Atomic arrangement, crystal lattice orientation, grain boundaries, and defects all play a central role in defining performance.</p>
+      <p>Understanding structure enables us to:
+        <ul>
+          <li>Tailor materials for specific applications</li>
+          <li>Improve efficiency in energy storage and conversion</li>
+          <li>Design materials from the bottom up using principles of symmetry and bonding</li>
+        </ul>
+        In essence, structure is the "grammar" that governs the "language" of matter.
+      </p>
+    </details>
+    <details>
+      <summary>🧩 How pattern recognition changes discovery</summary>
+      <p>Traditionally, discovering new materials relied on intuition, experience, and trial-and-error experiments. But now, with tools like <strong>machine learning</strong>, we're identifying hidden patterns across massive datasets of material behavior and structure.</p>
+      <p>Using techniques such as:
+        <ul>
+          <li>Graph neural networks (GNNs)</li>
+          <li>Dimensionality reduction (like PCA and t-SNE)</li>
+          <li>Unsupervised clustering and anomaly detection</li>
+        </ul>
+        ...we can uncover relationships and properties that humans might overlook. This shift empowers scientists to <strong>accelerate discovery</strong>, reduce experimental costs, and explore entirely new classes of matter.
+      </p>
+    </details>
+    <details>
+      <summary>🎨 Our approach to visualization and pedagogy</summary>
+      <p>MaterialGrammar doesn't just compute data—it <strong>communicates ideas visually</strong>. We believe in making complex concepts intuitive by combining:
+        <ul>
+          <li>Interactive visualizations (force-directed atomic graphs, crystal symmetry viewers)</li>
+          <li>Storytelling around material phenomena</li>
+          <li>Gamified learning interfaces that let users explore structures by “speaking” the language of materials</li>
+        </ul>
+        This approach helps bridge the gap between deep theory and accessible understanding—ideal for researchers, students, and educators alike.
+      </p>
+    </details>
+  </div>
+
+  <h2>📰 Latest Blog Posts</h2>
+  <div id="medium-posts" class="medium-posts">Loading latest posts…</div>
+</section>
+
+<section id="contact">
+  <h2>📬 Contact</h2>
+  <p>If you'd like to collaborate, have questions about MaterialGrammar, or just want to say hello — feel free to reach out.</p>
+  <p>Email: <a href="mailto:hello@materialgrammar.com">hello@materialgrammar.com</a></p>
+  <div class="social-links">
+    <a href="https://medium.com/@alixjcob" target="_blank">Medium</a>
+    <a href="https://www.linkedin.com/in/alex-jacob-0b6711194/" target="_blank">LinkedIn</a>
+  </div>
+</section>
+
+<footer>
+  &copy; 2025 MaterialGrammar. Built for scientists, engineers, and educators exploring the patterns of matter.
+</footer>
+
+<script>
+  fetch("https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@alixjcob&cache=false")
+    .then(res => res.json())
+    .then(data => {
+      const container = document.getElementById("medium-posts");
+      container.innerHTML = "";
+      const sortedPosts = data.items.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+      sortedPosts.slice(0, 3).forEach(post => {
+        const date = new Date(post.pubDate).toLocaleDateString();
+        const div = document.createElement("div");
+        div.innerHTML = `
+          <article style="margin-bottom: 1.5em;">
+            <h3><a href="${post.link}" target="_blank" rel="noopener">${post.title}</a></h3>
+            <small>${date}</small>
+            <p>${post.description.replace(/<[^>]+>/g, "").split(" ").slice(0, 30).join(" ")}...</p>
+          </article>
+        `;
+        container.appendChild(div);
+      });
+    })
+    .catch(err => {
+      console.error("Error fetching Medium posts:", err);
+      document.getElementById("medium-posts").innerHTML = "Unable to load blog posts at the moment.";
+    });
+</script>
+
+</body>
+</html>
